@@ -13,9 +13,13 @@
 	<c:url var="actionAdicionar" value="/albuns/adicionar"></c:url>
 	<form:form action="${actionAdicionar}" method="post" modelAttribute="album">
 		<label>Nome:</label>
-		<form:input path="nome"/><br/>
+		<form:input path="nome"/>
+		<form:errors path="nome"></form:errors>
+		<br/>
 		<label>Data de Lançamento</label>		
-		<form:input path="dataLancamento"/><br/>		
+		<form:input path="dataLancamento"/>
+		<form:errors path="dataLancamento"></form:errors>
+		<br/>		
 		<input type="submit" value="Salvar!">
 	</form:form>
 </body>
