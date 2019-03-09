@@ -13,14 +13,19 @@
 	</definition>
 	
 	<!-- Album -->
-    <definition name="album.adicionar.tiles" extends="layout.base">
-        <put-attribute name="title" value="TreinaWeb Spring MVC: Adição de álbuns"/>
+    <definition name="album.adicionar.tiles" extends="layout.tiles">
+        <put-attribute name="title" value="Adição de álbuns"/>
         <put-attribute name="body" value="/WEB-INF/views/albuns/adicionar.jsp"/>
     </definition>
     
-    <definition name="album.exibir.tiles" extends="layout.base">
-        <put-attribute name="title" value="TreinaWeb Spring MVC: Exibição de álbuns"/>
-        <put-attribute name="body" value="/WEB-INF/views/albuns/exibir.jsp"/>
+     <definition name="album.alterar.tiles" extends="layout.tiles">
+        <put-attribute name="title" value="Edição de álbuns"/>
+        <put-attribute name="body" value="/WEB-INF/views/albuns/alterar.jsp"/>
+    </definition>
+    
+    <definition name="album.listar.tiles" extends="layout.tiles">
+        <put-attribute name="title" value="Exibição de álbuns"/>
+        <put-attribute name="body" value="/WEB-INF/views/albuns/listar.jsp"/>
     </definition>
     
 </tiles-definitions>

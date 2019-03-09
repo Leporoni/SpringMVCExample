@@ -1,0 +1,4 @@
+com\leporonitech\springmvc\controllers\AlbunsController.class
+com\leporonitech\springmvc\controllers\HelloController.class
+com\leporonitech\springmvc\domains\Album.class
+com\leporonitech\springmvc\repositories\AlbumRepository.class
